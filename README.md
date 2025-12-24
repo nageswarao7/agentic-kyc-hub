@@ -38,6 +38,7 @@ KYC_Hub/
 ├── main.py                 # Application Entry Point
 ├── requirements.txt        # Python Dependencies
 ├── .env.example            # Environment Variable Template
+├── .gitignore              # Git Ignore File
 └── README.md               # project Documentation
 ```
 
