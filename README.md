@@ -25,21 +25,20 @@ The system follows a modular Hub and Spoke pattern:
 ## Project Structure
 
 ```
-KYC_Hub/
-├── agents/                 # Agent Implementations
-│   ├── base_agent.py       # Abstract Base Class
-│   ├── orchestrator.py     # Hub Agent
-│   ├── investigator.py     # Transaction History Spoke
-│   ├── context_gatherer.py # KYC Spoke
-│   ├── adjudicator.py      # Reasoning Spoke (LangChain + Gemini)
-│   └── aem.py              # Action Execution Module
-├── data/
-│   └── mock_data.py        # Mock Databases and SOP Rules
-├── main.py                 # Application Entry Point
-├── requirements.txt        # Python Dependencies
-├── .env.example            # Environment Variable Template
-├── .gitignore              # Git Ignore File
-└── README.md               # project Documentation
+agents/                 # Agent Implementations
+├── base_agent.py       # Abstract Base Class
+├── orchestrator.py     # Hub Agent
+├── investigator.py     # Transaction History Spoke
+├── context_gatherer.py # KYC Spoke
+├── adjudicator.py      # Reasoning Spoke (LangChain + Gemini)
+└── aem.py              # Action Execution Module
+data/
+└── mock_data.py        # Mock Databases and SOP Rules
+main.py                 # Application Entry Point
+requirements.txt        # Python Dependencies
+.env.example            # Environment Variable Template
+.gitignore              # Git Ignore File
+README.md               # project Documentation
 ```
 
 ## Setup & Installation
