@@ -57,7 +57,7 @@ README.md               # project Documentation
 
 ## Usage
 
-To run the simulation for all 5 assignment alerts:
+To run the simulation for all 5 alerts:
 
 ```bash
 python main.py
